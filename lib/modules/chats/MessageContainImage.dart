@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:social_app/layout/cubit/states.dart';
-import 'package:social_app/modules/chats/chat_details_screen.dart';
 import '../../layout/cubit/cubit.dart';
 import '../../models/user_model.dart';
-import '../../shared/components/navigate_and_finish.dart';
 
 class MessageContainImage extends StatelessWidget {
   final UserModel userModel;
@@ -47,8 +45,7 @@ class MessageContainImage extends StatelessWidget {
 
                           );
                           SocialCubit.get(context).messageImage == null;
-                          navigateAndFinish(context, ChatDetailsScreen(userModel: userModel));
-
+                          Navigator.pop(context);
                         },
                         icon: Icon(
                           Icons.arrow_forward_ios_rounded,
