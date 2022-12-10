@@ -7,8 +7,7 @@ firbase backend : firebaseAuth , firbaseStore , firebaseStorge , FirebaseMessage
 
 ##register
 create register screen and store data in firbase_store;
-![WhatsApp Image 2022-12-10 at 10 44 14 PM (1)](https://user-images.githubusercontent.com/88463009/206874792-86407bc2-0717-4bf7-b3be-76a4ae2e0648.jpeg)
-![WhatsApp Image 2022-12-10 at 10 44 14 PM (2)](https://user-images.githubusercontent.com/88463009/206874799-20e450da-2b29-4d08-9f9e-4457d5802421.jpeg)
+![WhatsApp Image 2022-12-10 at 10 44 14 PM (1)](https://user-images.githubusercontent.com/88463009/206874792-86407bc2-0717-4bf7-b3be-76a4ae2e0648.jpeg)![WhatsApp Image 2022-12-10 at 10 44 14 PM (2)](https://user-images.githubusercontent.com/88463009/206874799-20e450da-2b29-4d08-9f9e-4457d5802421.jpeg)
 
 ##login
 create log in screen and check data in firbase_store :
