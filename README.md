@@ -1,12 +1,38 @@
 # social_app
 
-A new Flutter project.
+
+firbase backend : firebaseAuth , firbaseStore , firebaseStorge , FirebaseMessage
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+##register
+create register screen and store data in firbase_store;
 
-A few resources to get you started if this is your first Flutter project:
+##login
+create log in screen and check data in firbase_store :
+If the data exists :
+login success (navigate to home screen);
+else: 
+toast_show error message;
+
+##chat
+create chat messages and save message in firebase_store 
+show all users in chat screen.
+
+##posts
+add text
+photos from gallery or camera
+then : show all posts in home screen;
+
+##create like action in posts and get number of likes.
+
+##profile screen
+upload profile image 
+upload cover image
+create posts
+edit your data 
+and data edit in firebase_firestor also.
+
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
